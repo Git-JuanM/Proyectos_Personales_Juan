@@ -1,0 +1,14 @@
+# Entorno principal: todo el proyecto excepto comparaciones/comparacion_pycaret.ipynb
+# Python 3.11 o superior
+
+pandas>=3.0,<4
+numpy>=2.0
+scipy
+scikit-learn==1.9.0   # misma versión con la que se guardó modelo/pipeline_churn.pkl
+joblib
+matplotlib
+seaborn
+shap>=0.46
+notebook
+ipykernel
+ipywidgets

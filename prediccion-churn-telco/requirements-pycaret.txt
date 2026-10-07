@@ -1,0 +1,9 @@
+# Entorno aparte, solo para comparaciones/comparacion_pycaret.ipynb
+# Python 3.9 a 3.11 (PyCaret 3.3.2 no funciona con versiones posteriores)
+
+pycaret==3.3.2
+xgboost
+catboost
+seaborn
+notebook
+ipykernel
