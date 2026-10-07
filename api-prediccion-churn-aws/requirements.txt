@@ -1,0 +1,20 @@
+# Python 3.9 a 3.11
+
+# Modelo
+tensorflow==2.15.*      # El modelo está en formato SavedModel de Keras 2; no carga con Keras 3 (TensorFlow 2.16 o superior)
+numpy<2
+scikit-learn==1.6.0     # Misma versión con la que se guardó modelo/preprocessor.pkl
+pandas>=2.0,<3
+joblib
+matplotlib
+
+# API y base de datos
+fastapi
+uvicorn
+mysql-connector-python
+pymysql
+python-dotenv
+
+# Notebook
+notebook
+ipykernel
