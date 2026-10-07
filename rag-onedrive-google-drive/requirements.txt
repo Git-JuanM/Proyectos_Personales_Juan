@@ -1,0 +1,26 @@
+# Probado con Python 3.11
+
+# RAG (mismas librerías que los laboratorios del curso)
+langchain==0.3.30
+langchain-community==0.3.31
+langchain-ibm==0.3.22
+ibm-watsonx-ai==1.8.0
+chromadb==1.5.9
+pypdf==6.19.0
+docx2txt==0.9
+
+# Interfaz
+gradio==6.29.1
+
+# Conector de OneDrive (Microsoft Graph)
+msal==1.39.0
+requests>=2.32
+
+# Conector de Google Drive
+google-api-python-client==2.201.0
+google-auth-oauthlib==1.5.0
+google-auth-httplib2==0.4.4
+
+# Configuración y pruebas
+python-dotenv==1.2.4
+pytest>=8
